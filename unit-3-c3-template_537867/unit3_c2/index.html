@@ -1,0 +1,61 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      #navbar{
+        background-color: aqua;
+        width:100%;
+        height:50px;
+        margin: auto;
+        display:flex;
+        justify-content: space-between;
+        
+      }
+      #form{
+        width:500px;
+        height:350px;
+        background-color: burlywood;
+        margin: auto;
+        margin-top:50px;
+
+      }
+      h1{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h3>Sign Up</h3>
+      <a href="voucher.html">Purchase Voucher</a>
+    </div>
+    <div id="form">
+      <h1>sign up</h1>
+    <form id="products" onclick="sumbit" style="display:grid;grid-template-columns: auto;grid-gap:20px;width: 400px;">
+      <input type="text" id="name" placeholder="Name"/>
+      <input type="text" id="email" placeholder="Email"/>
+      <input type="text" id="address" placeholder="Address"/>
+      <input type="number" id="amount" placeholder="Add amount to Wallet"/>
+      <button id="submit" onclick="button()"></button>
+    </form>
+
+
+</div>
+</div>
+    
+    <!-- - name input box :- "name"
+  - email input box :- "email"
+  - Address input box :- "address"
+  - Amount input box :- "amount" 
+  - Submit button :- "submit"
+  - The user will be stored with key:- "user"
+  - The input fields should become empty after submitting -->
+  </body>
+</html>
